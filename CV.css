@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a79898;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: #093029;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* header start */
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+.name{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(227, 241, 241);
+
+}
+.contact-info{
+    float: right;
+    padding: 30px;
+}
+.contact-info a{
+    text-decoration: none;
+    color:rgb(117, 145, 145) ;
+}
+.contact-info a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* header end */
+.clear-div{
+    clear: both;
+}
+.hr-row{
+    border: 3px solid white;
+    border-bottom: none;
+    width: 98%;
+    margin: 10px auto;
+}
+ /* main starts */
+ /* personal information starts */
+    
+    .content{
+    margin: 30px;
+    }
+    .left-div{
+        box-sizing: border-box;
+        
+        width: 30%;
+        float: left;
+    }
+    .right-div{
+        
+        width: 35%;
+        color: aliceblue;
+        float: left;
+    }
+    .right-divs{
+        width: 35%;
+        color: aliceblue;
+        float:right ;
+    }
+ /* personal information ends */
+     .common-hr{
+        
+        margin: 20px auto;
+        width: 98%;
+        border: 2px solid white;
+        border-bottom: none;
+     }
+     /* footer start */
+     .bottom-content{
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+     }
+     .bottom-content a{
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+     }
+     .bottom-content a:hover{
+        text-decoration: underline;
+        color: blue;
+     }
+     .bottom-content p{
+       color: white; 
+       margin-top: 10px;
+     }
+     /* footer start */
+ /* main ends */
